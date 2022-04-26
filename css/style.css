@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.style-box{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    background: #2c3441;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover > input{
+    width: 200px;
+    padding: 0 10px;
+}
